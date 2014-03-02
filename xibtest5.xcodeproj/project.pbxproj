@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040804C818970EF90032DA9B /* Next2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040804C618970EF90032DA9B /* Next2ViewController.m */; };
+		040804C918970EF90032DA9B /* Next2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040804C718970EF90032DA9B /* Next2ViewController.xib */; };
+		049F796F1895409700AA6247 /* DefClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F796E1895409700AA6247 /* DefClass.m */; };
+		04A197C118ABC1B400C7D8A6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A197BF18ABC1B400C7D8A6 /* DetailViewController.m */; };
+		04A197C718C1EEE500C7D8A6 /* IIViewDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A197C418C1EEE500C7D8A6 /* IIViewDeckController.m */; };
+		04A197C818C1EEE500C7D8A6 /* IIWrapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A197C618C1EEE500C7D8A6 /* IIWrapController.m */; };
+		04A197CA18C1EF1400C7D8A6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A197C918C1EF1400C7D8A6 /* QuartzCore.framework */; };
+		04F74A8618A3A816005CDC46 /* examCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F74A8418A3A816005CDC46 /* examCardViewController.m */; };
+		04F74A8718A3A816005CDC46 /* examCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F74A8518A3A816005CDC46 /* examCardViewController.xib */; };
 		04F7EB38188A2F5400D33937 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F7EB37188A2F5400D33937 /* Foundation.framework */; };
 		04F7EB3A188A2F5400D33937 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F7EB39188A2F5400D33937 /* CoreGraphics.framework */; };
 		04F7EB3C188A2F5400D33937 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F7EB3B188A2F5400D33937 /* UIKit.framework */; };
@@ -19,6 +28,13 @@
 		04F7EB53188A2F5400D33937 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F7EB3B188A2F5400D33937 /* UIKit.framework */; };
 		04F7EB5B188A2F5400D33937 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04F7EB59188A2F5400D33937 /* InfoPlist.strings */; };
 		04F7EB5D188A2F5400D33937 /* xibtest5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7EB5C188A2F5400D33937 /* xibtest5Tests.m */; };
+		04F7EB69188A37DB00D33937 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7EB67188A37DB00D33937 /* ViewController.m */; };
+		04F7EB6A188A37DB00D33937 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F7EB68188A37DB00D33937 /* ViewController.xib */; };
+		04F7EB6D188BBF9A00D33937 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7EB6C188BBF9A00D33937 /* CustomView.m */; };
+		04F7EB6F188BBFEE00D33937 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F7EB6E188BBFEE00D33937 /* CustomView.xib */; };
+		04F7EB71188BC6FB00D33937 /* CustomView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F7EB70188BC6FB00D33937 /* CustomView2.xib */; };
+		04F7EB7518912C7D00D33937 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7EB7318912C7D00D33937 /* NextViewController.m */; };
+		04F7EB7618912C7D00D33937 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F7EB7418912C7D00D33937 /* NextViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +48,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040804C518970EF90032DA9B /* Next2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Next2ViewController.h; sourceTree = "<group>"; };
+		040804C618970EF90032DA9B /* Next2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Next2ViewController.m; sourceTree = "<group>"; };
+		040804C718970EF90032DA9B /* Next2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Next2ViewController.xib; sourceTree = "<group>"; };
+		049F796D1895409700AA6247 /* DefClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefClass.h; sourceTree = "<group>"; };
+		049F796E1895409700AA6247 /* DefClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefClass.m; sourceTree = "<group>"; };
+		04A197BE18ABC1B400C7D8A6 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		04A197BF18ABC1B400C7D8A6 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		04A197C318C1EEE500C7D8A6 /* IIViewDeckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIViewDeckController.h; sourceTree = "<group>"; };
+		04A197C418C1EEE500C7D8A6 /* IIViewDeckController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IIViewDeckController.m; sourceTree = "<group>"; };
+		04A197C518C1EEE500C7D8A6 /* IIWrapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIWrapController.h; sourceTree = "<group>"; };
+		04A197C618C1EEE500C7D8A6 /* IIWrapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IIWrapController.m; sourceTree = "<group>"; };
+		04A197C918C1EF1400C7D8A6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		04F74A8318A3A816005CDC46 /* examCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = examCardViewController.h; sourceTree = "<group>"; };
+		04F74A8418A3A816005CDC46 /* examCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = examCardViewController.m; sourceTree = "<group>"; };
+		04F74A8518A3A816005CDC46 /* examCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = examCardViewController.xib; sourceTree = "<group>"; };
 		04F7EB34188A2F5400D33937 /* xibtest5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xibtest5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F7EB37188A2F5400D33937 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		04F7EB39188A2F5400D33937 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +79,16 @@
 		04F7EB58188A2F5400D33937 /* xibtest5Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "xibtest5Tests-Info.plist"; sourceTree = "<group>"; };
 		04F7EB5A188A2F5400D33937 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04F7EB5C188A2F5400D33937 /* xibtest5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xibtest5Tests.m; sourceTree = "<group>"; };
+		04F7EB66188A37DB00D33937 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04F7EB67188A37DB00D33937 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04F7EB68188A37DB00D33937 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		04F7EB6B188BBF9A00D33937 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		04F7EB6C188BBF9A00D33937 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		04F7EB6E188BBFEE00D33937 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		04F7EB70188BC6FB00D33937 /* CustomView2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView2.xib; sourceTree = "<group>"; };
+		04F7EB7218912C7D00D33937 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		04F7EB7318912C7D00D33937 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		04F7EB7418912C7D00D33937 /* NextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A197CA18C1EF1400C7D8A6 /* QuartzCore.framework in Frameworks */,
 				04F7EB3A188A2F5400D33937 /* CoreGraphics.framework in Frameworks */,
 				04F7EB3C188A2F5400D33937 /* UIKit.framework in Frameworks */,
 				04F7EB38188A2F5400D33937 /* Foundation.framework in Frameworks */,
@@ -74,9 +116,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04A197CB18C1F13F00C7D8A6 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				04A197CC18C1F15B00C7D8A6 /* ViewDeck */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		04A197CC18C1F15B00C7D8A6 /* ViewDeck */ = {
+			isa = PBXGroup;
+			children = (
+				04A197C318C1EEE500C7D8A6 /* IIViewDeckController.h */,
+				04A197C418C1EEE500C7D8A6 /* IIViewDeckController.m */,
+				04A197C518C1EEE500C7D8A6 /* IIWrapController.h */,
+				04A197C618C1EEE500C7D8A6 /* IIWrapController.m */,
+			);
+			name = ViewDeck;
+			sourceTree = "<group>";
+		};
 		04F7EB2B188A2F5300D33937 = {
 			isa = PBXGroup;
 			children = (
+				04A197CB18C1F13F00C7D8A6 /* Libs */,
+				04A197BE18ABC1B400C7D8A6 /* DetailViewController.h */,
+				04A197BF18ABC1B400C7D8A6 /* DetailViewController.m */,
+				04F74A8318A3A816005CDC46 /* examCardViewController.h */,
+				04F74A8418A3A816005CDC46 /* examCardViewController.m */,
+				04F74A8518A3A816005CDC46 /* examCardViewController.xib */,
+				040804C518970EF90032DA9B /* Next2ViewController.h */,
+				040804C618970EF90032DA9B /* Next2ViewController.m */,
+				040804C718970EF90032DA9B /* Next2ViewController.xib */,
+				049F796D1895409700AA6247 /* DefClass.h */,
+				049F796E1895409700AA6247 /* DefClass.m */,
+				04F7EB7218912C7D00D33937 /* NextViewController.h */,
+				04F7EB7318912C7D00D33937 /* NextViewController.m */,
+				04F7EB7418912C7D00D33937 /* NextViewController.xib */,
+				04F7EB70188BC6FB00D33937 /* CustomView2.xib */,
+				04F7EB6E188BBFEE00D33937 /* CustomView.xib */,
+				04F7EB6B188BBF9A00D33937 /* CustomView.h */,
+				04F7EB6C188BBF9A00D33937 /* CustomView.m */,
+				04F7EB66188A37DB00D33937 /* ViewController.h */,
+				04F7EB67188A37DB00D33937 /* ViewController.m */,
+				04F7EB68188A37DB00D33937 /* ViewController.xib */,
 				04F7EB3D188A2F5400D33937 /* xibtest5 */,
 				04F7EB56188A2F5400D33937 /* xibtest5Tests */,
 				04F7EB36188A2F5400D33937 /* Frameworks */,
@@ -96,6 +178,7 @@
 		04F7EB36188A2F5400D33937 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04A197C918C1EF1400C7D8A6 /* QuartzCore.framework */,
 				04F7EB37188A2F5400D33937 /* Foundation.framework */,
 				04F7EB39188A2F5400D33937 /* CoreGraphics.framework */,
 				04F7EB3B188A2F5400D33937 /* UIKit.framework */,
@@ -220,7 +303,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F7EB42188A2F5400D33937 /* InfoPlist.strings in Resources */,
+				04F7EB71188BC6FB00D33937 /* CustomView2.xib in Resources */,
+				04F7EB6F188BBFEE00D33937 /* CustomView.xib in Resources */,
+				04F7EB7618912C7D00D33937 /* NextViewController.xib in Resources */,
+				04F7EB6A188A37DB00D33937 /* ViewController.xib in Resources */,
 				04F7EB4A188A2F5400D33937 /* Images.xcassets in Resources */,
+				040804C918970EF90032DA9B /* Next2ViewController.xib in Resources */,
+				04F74A8718A3A816005CDC46 /* examCardViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +328,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F7EB7518912C7D00D33937 /* NextViewController.m in Sources */,
+				04F7EB69188A37DB00D33937 /* ViewController.m in Sources */,
+				04A197C118ABC1B400C7D8A6 /* DetailViewController.m in Sources */,
+				049F796F1895409700AA6247 /* DefClass.m in Sources */,
+				04F7EB6D188BBF9A00D33937 /* CustomView.m in Sources */,
+				040804C818970EF90032DA9B /* Next2ViewController.m in Sources */,
 				04F7EB48188A2F5400D33937 /* AppDelegate.m in Sources */,
+				04A197C718C1EEE500C7D8A6 /* IIViewDeckController.m in Sources */,
 				04F7EB44188A2F5400D33937 /* main.m in Sources */,
+				04F74A8618A3A816005CDC46 /* examCardViewController.m in Sources */,
+				04A197C818C1EEE500C7D8A6 /* IIWrapController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +541,7 @@
 				04F7EB62188A2F5400D33937 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04F7EB63188A2F5400D33937 /* Build configuration list for PBXNativeTarget "xibtest5Tests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +550,7 @@
 				04F7EB65188A2F5400D33937 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

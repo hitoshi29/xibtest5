@@ -7,17 +7,50 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "CustomView.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    /*self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];*/
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // 次の2行を追加
+    ViewController* topMenu = [[ViewController alloc] init];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:topMenu];
+    
+    // controller
+    //self.deckController = [self generateControllerStack];
+    //self.window.rootViewController = self.deckController;
+    
+    //self.viewController = [[ViewController alloc] init];
+    //self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
 }
+/*
+- (IIViewDeckController*)generateControllerStack {
+    // center
+    CenterViewController *centerController = [[CenterViewController alloc] initWithNibName:@"CenterViewController" bundle:nil];
+    
+    // navigation
+    UINavigationController *naviController = [[UINavigationController alloc] initWithRootViewController:centerController];
+    
+    // left
+    LeftViewController *leftController = [[LeftViewController alloc] initWithNibName:@"LeftViewController" bundle:nil];
+    
+    // deck
+    IIViewDeckController* deckController =  [[IIViewDeckController alloc] initWithCenterViewController:naviController
+                                                                                    leftViewController:leftController];
+    deckController.rightSize = 100;
+    
+    return deckController;
+}*/
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

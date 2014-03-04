@@ -54,6 +54,15 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    // スワイプジェスチャーを作成して、登録する。
+    UISwipeGestureRecognizer *swipe
+    = [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(swipe:)];
+    // スワイプの方向は右方向を指定する。
+    swipe.direction = UISwipeGestureRecognizerDirectionRight;
+    // スワイプ動作に必要な指は1本と指定する。
+    swipe.numberOfTouchesRequired = 1;
+    [self.tableView addGestureRecognizer:swipe];
 }
 
 - (void)viewDidAppear:(BOOL)animated{
@@ -102,6 +111,12 @@
     cardTableView.allowsSelection = NO;
     cardTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     [self.view addSubview:cardTableView];
+}
+
+// スワイプされた際に呼び出される処理。
+// NavigationViewで、現在の画面から一つ前の画面に戻る。
+-(void)swipe:(UISwipeGestureRecognizer *)gesture {
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 #pragma mark - Table view data source

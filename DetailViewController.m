@@ -45,6 +45,15 @@
     [self titleView];
     [self bodyView];
     [self footerView];
+    
+    // スワイプジェスチャーを作成して、登録する。
+    UISwipeGestureRecognizer *swipe
+        = [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(swipe:)];
+    // スワイプの方向は右方向を指定する。
+    swipe.direction = UISwipeGestureRecognizerDirectionRight;
+    // スワイプ動作に必要な指は1本と指定する。
+    swipe.numberOfTouchesRequired = 1;
+    [bodyView addGestureRecognizer:swipe];
 }
 
 - (void)didReceiveMemoryWarning
@@ -179,6 +188,12 @@
 
 -(void)clickBtn:(UIButton*)button{
     NSLog(@"click test");
+}
+
+// スワイプされた際に呼び出される処理。
+// NavigationViewで、現在の画面から一つ前の画面に戻る。
+-(void)swipe:(UISwipeGestureRecognizer *)gesture {
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 

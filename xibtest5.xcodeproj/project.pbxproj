@@ -14,6 +14,12 @@
 		04A197C718C1EEE500C7D8A6 /* IIViewDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A197C418C1EEE500C7D8A6 /* IIViewDeckController.m */; };
 		04A197C818C1EEE500C7D8A6 /* IIWrapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A197C618C1EEE500C7D8A6 /* IIWrapController.m */; };
 		04A197CA18C1EF1400C7D8A6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A197C918C1EF1400C7D8A6 /* QuartzCore.framework */; };
+		04A197D018CB784600C7D8A6 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A197CE18CB784600C7D8A6 /* LeftViewController.m */; };
+		04A197D118CB784600C7D8A6 /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A197CF18CB784600C7D8A6 /* LeftViewController.xib */; };
+		04A197D518CBFC0900C7D8A6 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A197D318CBFC0900C7D8A6 /* RightViewController.m */; };
+		04A197D618CBFC0900C7D8A6 /* RightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A197D418CBFC0900C7D8A6 /* RightViewController.xib */; };
+		04A197D818CDFD4300C7D8A6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A197D718CDFD4300C7D8A6 /* MapKit.framework */; };
+		04A197DA18CE014800C7D8A6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A197D918CE014800C7D8A6 /* CoreLocation.framework */; };
 		04F74A8618A3A816005CDC46 /* examCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F74A8418A3A816005CDC46 /* examCardViewController.m */; };
 		04F74A8718A3A816005CDC46 /* examCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F74A8518A3A816005CDC46 /* examCardViewController.xib */; };
 		04F7EB38188A2F5400D33937 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F7EB37188A2F5400D33937 /* Foundation.framework */; };
@@ -60,6 +66,14 @@
 		04A197C518C1EEE500C7D8A6 /* IIWrapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIWrapController.h; sourceTree = "<group>"; };
 		04A197C618C1EEE500C7D8A6 /* IIWrapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IIWrapController.m; sourceTree = "<group>"; };
 		04A197C918C1EF1400C7D8A6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		04A197CD18CB784600C7D8A6 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		04A197CE18CB784600C7D8A6 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		04A197CF18CB784600C7D8A6 /* LeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftViewController.xib; sourceTree = "<group>"; };
+		04A197D218CBFC0900C7D8A6 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		04A197D318CBFC0900C7D8A6 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		04A197D418CBFC0900C7D8A6 /* RightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightViewController.xib; sourceTree = "<group>"; };
+		04A197D718CDFD4300C7D8A6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		04A197D918CE014800C7D8A6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		04F74A8318A3A816005CDC46 /* examCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = examCardViewController.h; sourceTree = "<group>"; };
 		04F74A8418A3A816005CDC46 /* examCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = examCardViewController.m; sourceTree = "<group>"; };
 		04F74A8518A3A816005CDC46 /* examCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = examCardViewController.xib; sourceTree = "<group>"; };
@@ -96,6 +110,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A197DA18CE014800C7D8A6 /* CoreLocation.framework in Frameworks */,
+				04A197D818CDFD4300C7D8A6 /* MapKit.framework in Frameworks */,
 				04A197CA18C1EF1400C7D8A6 /* QuartzCore.framework in Frameworks */,
 				04F7EB3A188A2F5400D33937 /* CoreGraphics.framework in Frameworks */,
 				04F7EB3C188A2F5400D33937 /* UIKit.framework in Frameworks */,
@@ -138,6 +154,12 @@
 		04F7EB2B188A2F5300D33937 = {
 			isa = PBXGroup;
 			children = (
+				04A197D218CBFC0900C7D8A6 /* RightViewController.h */,
+				04A197D318CBFC0900C7D8A6 /* RightViewController.m */,
+				04A197D418CBFC0900C7D8A6 /* RightViewController.xib */,
+				04A197CD18CB784600C7D8A6 /* LeftViewController.h */,
+				04A197CE18CB784600C7D8A6 /* LeftViewController.m */,
+				04A197CF18CB784600C7D8A6 /* LeftViewController.xib */,
 				04A197CB18C1F13F00C7D8A6 /* Libs */,
 				04A197BE18ABC1B400C7D8A6 /* DetailViewController.h */,
 				04A197BF18ABC1B400C7D8A6 /* DetailViewController.m */,
@@ -178,6 +200,8 @@
 		04F7EB36188A2F5400D33937 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04A197D918CE014800C7D8A6 /* CoreLocation.framework */,
+				04A197D718CDFD4300C7D8A6 /* MapKit.framework */,
 				04A197C918C1EF1400C7D8A6 /* QuartzCore.framework */,
 				04F7EB37188A2F5400D33937 /* Foundation.framework */,
 				04F7EB39188A2F5400D33937 /* CoreGraphics.framework */,
@@ -303,6 +327,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F7EB42188A2F5400D33937 /* InfoPlist.strings in Resources */,
+				04A197D618CBFC0900C7D8A6 /* RightViewController.xib in Resources */,
+				04A197D118CB784600C7D8A6 /* LeftViewController.xib in Resources */,
 				04F7EB71188BC6FB00D33937 /* CustomView2.xib in Resources */,
 				04F7EB6F188BBFEE00D33937 /* CustomView.xib in Resources */,
 				04F7EB7618912C7D00D33937 /* NextViewController.xib in Resources */,
@@ -333,10 +359,12 @@
 				04A197C118ABC1B400C7D8A6 /* DetailViewController.m in Sources */,
 				049F796F1895409700AA6247 /* DefClass.m in Sources */,
 				04F7EB6D188BBF9A00D33937 /* CustomView.m in Sources */,
+				04A197D518CBFC0900C7D8A6 /* RightViewController.m in Sources */,
 				040804C818970EF90032DA9B /* Next2ViewController.m in Sources */,
 				04F7EB48188A2F5400D33937 /* AppDelegate.m in Sources */,
 				04A197C718C1EEE500C7D8A6 /* IIViewDeckController.m in Sources */,
 				04F7EB44188A2F5400D33937 /* main.m in Sources */,
+				04A197D018CB784600C7D8A6 /* LeftViewController.m in Sources */,
 				04F74A8618A3A816005CDC46 /* examCardViewController.m in Sources */,
 				04A197C818C1EEE500C7D8A6 /* IIWrapController.m in Sources */,
 			);

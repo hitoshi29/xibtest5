@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "CustomView.h"
 #import "NextViewController.h"
+#import "IIViewDeckController.h"
 
 @interface ViewController (){
     UIView *CustomView;
@@ -38,6 +39,8 @@
         //貼付ける
         //[self.view addSubview: test];
         [self.view addSubview: test2];
+        
+
     }
     return self;
 }
@@ -46,6 +49,17 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    // FB風スライドメニュー実装
+    UIBarButtonItem *leftBarBtnItem
+    = [[UIBarButtonItem alloc] initWithTitle:@"左画面" style:UIBarButtonItemStyleBordered target:self.viewDeckController action:@selector(toggleLeftView)];
+    
+    self.navigationItem.leftBarButtonItem = leftBarBtnItem;
+    
+    UIBarButtonItem *rightBarBtnItem
+    = [[UIBarButtonItem alloc] initWithTitle:@"右画面" style:UIBarButtonItemStyleBordered target:self.viewDeckController action:@selector(toggleRightView)];
+    
+    self.navigationItem.rightBarButtonItem = rightBarBtnItem;
 }
 
 - (void)didReceiveMemoryWarning
@@ -75,5 +89,7 @@
     // キーボードを閉じる
     [self.txtField resignFirstResponder];
 }
+
+
 
 @end

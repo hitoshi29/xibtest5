@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "ViewController.h" // 追加
 #import "IIViewDeckController.h"
+#import "LeftViewController.h" // 左側スライド画面
+#import "RightViewController.h" // 右側スライド画面
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

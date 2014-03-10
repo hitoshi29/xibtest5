@@ -20,9 +20,41 @@
     [self.window makeKeyAndVisible];*/
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
     // 次の2行を追加
     ViewController* topMenu = [[ViewController alloc] init];
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:topMenu];
+    
+    // 左画面
+    LeftViewController *leftCtr = [[LeftViewController alloc] init];
+    
+    // 右画面
+    RightViewController *rightCtr = [[RightViewController alloc] init];
+    
+    IIViewDeckController *deckCtr
+        = [[IIViewDeckController alloc] initWithCenterViewController:topMenu
+                                        leftViewController:leftCtr
+                                        rightViewController:rightCtr];
+
+    //self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:topMenu];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:deckCtr];
+    
+    // 遷移した全画面に対してスライドメニュー画面を設定する場合
+    /*
+    // center
+    ViewController *centerController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    
+    // navigation
+    UINavigationController *naviController = [[UINavigationController alloc] initWithRootViewController:centerController];
+    
+    // left
+    LeftViewController *leftController = [[LeftViewController alloc] initWithNibName:@"LeftViewController" bundle:nil];
+    
+    // deck
+    IIViewDeckController* deckController =  [[IIViewDeckController alloc] initWithCenterViewController:naviController
+                                                                                    leftViewController:leftController];
+    deckController.rightSize = 100;
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:deckController];
+    */
     
     // controller
     //self.deckController = [self generateControllerStack];

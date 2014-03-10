@@ -10,10 +10,12 @@
 #import "DetailViewController.h"
 
 @interface Next2ViewController (){
+    // クラス拡張
+    // ヘッダーファイル側で公開したくないインスタンス変数やプロパティ、メソッドの宣言に使うようです
     UITableView *cardTableView;
     DetailViewController *detailView;
+    MKMapView* _mapView;
 }
-
 @end
 
 @implementation Next2ViewController
@@ -48,6 +50,7 @@
     // 事前にセルを登録する
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
     self.tableView.allowsSelectionDuringEditing = YES;
+    self.tableView.backgroundColor = [UIColor colorWithRed:180/255.0 green:240/255.0 blue:120/255.0 alpha:0.3];
     
     // Uncomment the following line to preserve selection between presentations.
     //self.clearsSelectionOnViewWillAppear = NO;
@@ -63,6 +66,10 @@
     // スワイプ動作に必要な指は1本と指定する。
     swipe.numberOfTouchesRequired = 1;
     [self.tableView addGestureRecognizer:swipe];
+    
+    //_mapView = [[MKMapView alloc] initWithFrame:CGRectMake(0, 10, 320, 100)];
+    //[self.mapView addSubview:_mapView];
+
 }
 
 - (void)viewDidAppear:(BOOL)animated{
